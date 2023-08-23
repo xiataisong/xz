@@ -14,7 +14,7 @@ public class MyException extends RuntimeException {
      * 构建 就要传入提示的信息
      * @param message
      */
-    public MyException(String message){
+    public MyException(String message){     //自定义异常
         super(message);
     }
 }
